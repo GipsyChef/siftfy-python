@@ -12,8 +12,11 @@ requires-python = ">=3.9"
 authors = [{ name = "Siftfy", email = "hi@siftfy.io" }]
 keywords = [
     "spam",
+    "spam-api",
     "spam-detection",
+    "spam-classification",
     "spam-classifier",
+    "moderation",
     "content-moderation",
     "api-client",
     "siftfy",

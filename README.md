@@ -4,8 +4,8 @@ Official Python client for the [Siftfy](https://siftfy.io) spam-classification
 API. POST text, get a calibrated spam probability back. One round-trip, no
 queues, no models to host.
 
-[![PyPI version](https://img.shields.io/pypi/v/siftfy.svg)](https://pypi.org/project/siftfy/)
-[![Python versions](https://img.shields.io/pypi/pyversions/siftfy.svg)](https://pypi.org/project/siftfy/)
+[![PyPI version](https://img.shields.io/pypi/v/siftfy)](https://pypi.org/project/siftfy/)
+[![Python versions](https://img.shields.io/pypi/pyversions/siftfy)](https://pypi.org/project/siftfy/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Install

@@ -6,6 +6,7 @@ queues, no models to host.
 
 [![PyPI version](https://img.shields.io/pypi/v/siftfy)](https://pypi.org/project/siftfy/)
 [![Python versions](https://img.shields.io/pypi/pyversions/siftfy)](https://pypi.org/project/siftfy/)
+[![CI](https://github.com/GipsyChef/siftfy-python/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/GipsyChef/siftfy-python/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Install

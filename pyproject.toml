@@ -45,9 +45,9 @@ dependencies = [
 [project.urls]
 Homepage = "https://siftfy.io"
 Documentation = "https://siftfy.io/docs"
-Source = "https://github.com/GipsyChef/siftfy-python"
-Issues = "https://github.com/GipsyChef/siftfy-python/issues"
-Changelog = "https://github.com/GipsyChef/siftfy-python/releases"
+Source = "https://github.com/siftfy/siftfy-python"
+Issues = "https://github.com/siftfy/siftfy-python/issues"
+Changelog = "https://github.com/siftfy/siftfy-python/releases"
 
 [project.optional-dependencies]
 dev = [

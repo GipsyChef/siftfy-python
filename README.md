@@ -6,7 +6,7 @@ queues, no models to host.
 
 [![PyPI version](https://img.shields.io/pypi/v/siftfy)](https://pypi.org/project/siftfy/)
 [![Python versions](https://img.shields.io/pypi/pyversions/siftfy)](https://pypi.org/project/siftfy/)
-[![CI](https://github.com/GipsyChef/siftfy-python/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/GipsyChef/siftfy-python/actions/workflows/ci.yml)
+[![CI](https://github.com/siftfy/siftfy-python/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/siftfy/siftfy-python/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Install
@@ -101,7 +101,7 @@ transports, or to share a client across services.
 - API reference: <https://siftfy.io/docs>
 - Pricing: <https://siftfy.io/pricing>
 - Status: ping `https://api.siftfy.io/health`
-- Issues: <https://github.com/GipsyChef/siftfy-python/issues>
+- Issues: <https://github.com/siftfy/siftfy-python/issues>
 
 ## License
 

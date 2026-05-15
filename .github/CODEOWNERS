@@ -1,0 +1,9 @@
+* @cigan1
+
+# Require focused review for high-risk areas.
+/.github/workflows/ @cigan1
+/.github/scripts/ @cigan1
+/SECURITY.md @cigan1
+/MAINTAINERS.md @cigan1
+/pyproject.toml @cigan1
+/src/siftfy/ @cigan1

@@ -1,0 +1,30 @@
+name: OSS Compliance
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  compliance:
+    name: Repository compliance
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check open source readiness gates
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 .github/scripts/readme_audit.py . --fail-on warn
+          python3 .github/scripts/license_metadata_audit.py . --fail-on warn
+          python3 .github/scripts/workflow_audit.py . --fail-on blocker

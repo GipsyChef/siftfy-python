@@ -16,9 +16,15 @@ keywords = [
     "spam-detection",
     "spam-classification",
     "spam-classifier",
+    "spam-filter",
+    "antispam",
     "moderation",
     "content-moderation",
+    "text-classification",
+    "contact-forms",
     "api-client",
+    "fastapi",
+    "django",
     "siftfy",
 ]
 classifiers = [
@@ -45,12 +51,16 @@ dependencies = [
 [project.urls]
 Homepage = "https://siftfy.io"
 Documentation = "https://siftfy.io/docs"
+Examples = "https://siftfy.io/examples"
+Tools = "https://siftfy.io/tools"
+Pricing = "https://siftfy.io/pricing"
 Source = "https://github.com/siftfy/siftfy-python"
 Issues = "https://github.com/siftfy/siftfy-python/issues"
 Changelog = "https://github.com/siftfy/siftfy-python/releases"
 
 [project.optional-dependencies]
 dev = [
+    "build>=1.2",
     "pytest>=8",
     "pytest-asyncio>=0.23",
     "respx>=0.21",

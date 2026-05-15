@@ -9,6 +9,10 @@ queues, no models to host.
 [![CI](https://github.com/siftfy/siftfy-python/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/siftfy/siftfy-python/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+## Requirements
+
+Siftfy supports Python 3.9 and newer.
+
 ## Install
 
 ```bash
@@ -108,6 +112,26 @@ client = Siftfy(
 You can also pass your own `httpx.Client` (or `httpx.AsyncClient` for the
 async client) via `http_client=...` if you want connection pooling, custom
 transports, or to share a client across services.
+
+## Development
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -e ".[dev]"
+
+ruff check src tests
+mypy src
+pytest -q
+python -m build
+```
+
+## Support and security
+
+Use [GitHub Issues](https://github.com/siftfy/siftfy-python/issues) for SDK bugs
+and feature requests. Do not open public issues for suspected vulnerabilities;
+report them privately using the process in [SECURITY.md](SECURITY.md).
 
 ## Resources
 

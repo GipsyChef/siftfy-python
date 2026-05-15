@@ -30,6 +30,19 @@ print(result.likelihood)        # "high"
 Get an API key at [siftfy.io](https://siftfy.io) — the free tier covers
 10,000 requests/month at no cost.
 
+## Runnable examples
+
+Use these when wiring Siftfy into a real form, signup flow, or moderation
+queue:
+
+- [FastAPI contact-form spam filter](https://siftfy.io/examples/fastapi-spam-filter)
+- [Next.js route handler](https://siftfy.io/examples/nextjs-spam-filter)
+- [Django view](https://siftfy.io/examples/django-spam-filter)
+- [Laravel controller](https://siftfy.io/examples/laravel-spam-filter)
+- [Webflow Worker](https://siftfy.io/examples/webflow-worker-spam-filter)
+- [Ghost webhook pattern](https://siftfy.io/examples/ghost-spam-filter)
+- [Browser spam probability tester](https://siftfy.io/tools/spam-probability-tester)
+
 ## Async
 
 ```python
@@ -99,6 +112,11 @@ transports, or to share a client across services.
 ## Resources
 
 - API reference: <https://siftfy.io/docs>
+- Predict endpoint: <https://siftfy.io/docs/predict>
+- Runnable examples: <https://siftfy.io/examples>
+- Free anti-spam tools: <https://siftfy.io/tools>
+- Contact-form guide: <https://siftfy.io/use-cases/contact-forms>
+- Comparison guide: <https://siftfy.io/best-spam-detection-api>
 - Pricing: <https://siftfy.io/pricing>
 - Status: ping `https://api.siftfy.io/health`
 - Issues: <https://github.com/siftfy/siftfy-python/issues>
